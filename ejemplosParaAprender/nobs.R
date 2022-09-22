@@ -1,0 +1,5 @@
+RNGversion("3.6.0")  
+set.seed(42)
+cc <- complete("specdata", 332:1)
+use <- sample(332, 10)
+print(cc[use, "nobs"])
